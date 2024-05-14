@@ -4,9 +4,9 @@ import { Text, View } from 'react-native';
 
 export default function App() {
 	return (
-		<View className="bg-red-500">
+		<View className="flex-1 items-center justify-center">
 			<Text>Hello world!</Text>
-			<Link href="/profile">Go to profile</Link>
+			<Link href="/home">Go to home</Link>
 			<StatusBar style="auto" />
 		</View>
 	);
